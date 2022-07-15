@@ -1,0 +1,60 @@
+@media screen and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  h1{
+
+  }
+
+  h2{
+
+  }
+
+  h3{
+
+  }
+
+  .row {
+
+  }
+
+  .main-content{
+
+  }
+
+  #row-header {
+    grid-template-columns: 1fr;
+  }
+  #row-header > div:nth-child(2){
+
+  }
+
+  #row-header > div:nth-child(1){
+
+  }
+  #row-header > div:nth-child(1) img{
+    width:33%;
+  }
+
+  #row-header div p {
+    width:100%;
+    line-height:160%;
+  }
+
+  #row-projects{
+    width:100%;
+  }
+
+  #row-projects > .row-33_67-primary{
+    grid-template-columns: 1fr;
+    grid-gap:1em;
+  }
+
+  #row-projects > .row-33_67-primary{
+    grid-template-columns: 1fr;
+    grid-gap:1em;
+  }
+
+  #row-projects .row-33_67-primary #row-projects-column-right h4{
+    border-bottom:none;
+    margin:24px 0 24px 0;
+    line-height:0;
+  }
+}

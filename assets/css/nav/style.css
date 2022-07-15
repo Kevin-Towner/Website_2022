@@ -1,0 +1,91 @@
+nav{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  padding:24px 0 20px 0;
+  background-color:#FFF;
+  width:100%;
+  border-bottom:1px solid #c4c4c4;
+  top:0;
+  position:fixed;
+  z-index:1;
+  align-items:center;
+}
+
+label{
+  margin:auto;
+  text-align:center;
+  display:none;
+}
+
+.barcode{
+  margin-left:16.5vw;
+  font-size: 24pt;
+  color:#565F6D;
+  font-weight:400;
+  font-family: 'Libre Barcode 39 Extended', cursive;
+}
+
+#navigation-left{
+  align-items:center;
+
+}
+#navigation-right{
+  align-items:center;
+}
+#logo{
+  height:42px;
+  margin-left:16.5vw;
+}
+#navigation-h1{
+  font-size:16.5pt;
+  font-weight:400;
+  color:#B41AB7;
+  margin-left:1em;
+  display:none;
+}
+
+#toggle{
+  display:none;
+}
+
+#menu{
+  display:inline-flex;
+  margin:0;
+  /* margin-right:3vw; */
+  margin-right:16.5vw;
+  list-style-type:none;
+}
+#menu > li:nth-child(1){
+  margin-right:28px;
+}
+#menu > li:nth-child(2){
+  margin-right:28px;
+}
+#menu > li:nth-child(3){
+  margin-right:28px;
+}
+#menu > li:nth-child(4){
+  margin-right:28px;
+}
+
+#menu > li > a{
+  font-size: 12.5pt;
+  color:#292F37;
+  font-weight:400;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing:.4px;
+  text-decoration:none;
+}
+
+#menu > li > a:hover{
+  color:#0047FF;
+  text-decoration:underline;
+}
+
+.font-bold-nav{
+  /* font-weight:400 !important;
+  color:#E93661 !important; */
+  font-weight:400 !important;
+  color:#0047FF !important;
+}
