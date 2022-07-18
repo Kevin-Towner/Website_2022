@@ -65,8 +65,6 @@
   font-weight: 300;
   font-size: 42pt;
   background-color: #545A65;
-  background-size: 100%;
-  -webkit-background-clip: text;
   margin: 0 0 64px;
 }
 .font-heading_text-h2 {
@@ -183,8 +181,6 @@ h1 {
   font-weight: 300;
   font-size: 42pt;
   background-color: #545A65;
-  background-size: 100%;
-  -webkit-background-clip: text;
   margin: 0 0 64px;
 }
 h2 {
