@@ -34,7 +34,6 @@
 }
 .row-33_33_33-primary div a h4 {
   text-align: center;
-  padding: auto;
   padding-top: 28%;
   top: 0;
   left: 0;
@@ -67,9 +66,7 @@
   font-size: 42pt;
   background-color: #6C7583;
   background-size: 100%;
-  text-fill-color: transparent;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   margin: 0 0 64px;
 }
 .font-heading_text-h2 {
@@ -187,9 +184,7 @@ h1 {
   font-size: 42pt;
   background-color: #6C7583;
   background-size: 100%;
-  text-fill-color: transparent;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   margin: 0 0 64px;
 }
 h2 {
