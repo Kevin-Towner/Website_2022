@@ -64,7 +64,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 42pt;
-  background-color: #545A65;
+  color: #545A65;
   margin: 0 0 64px;
 }
 .font-heading_text-h2 {
@@ -180,7 +180,7 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 42pt;
-  background-color: #545A65;
+  color: #545A65;
   margin: 0 0 64px;
 }
 h2 {
