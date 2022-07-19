@@ -28,7 +28,7 @@
 }
 
 .row{
-  margin-bottom:6em;
+  margin-bottom:4em;
 }
 
 .row-33_33_33-primary{
@@ -76,6 +76,11 @@
       display:none;
     }
   }
+}
+
+.image-column{
+  display: flex;
+  flex-direction: column;
 }
 
 /* - - - - FONTS - - - - - - */
@@ -255,6 +260,28 @@ p{
           }
         }
       }
+    }
+  }
+}
+#row-about{
+  display:grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap:4em;
+  div{
+    p{
+      margin-bottom:32px;
+    }
+  }
+  .image-column{
+    display: flex;
+    flex-direction: column;
+    img{
+        width:100%;
+        float:right;
+        border-radius:2px;
+    }
+    .font-caption{
+      font-size:12.5pt;
     }
   }
 }
