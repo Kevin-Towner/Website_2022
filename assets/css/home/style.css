@@ -292,6 +292,11 @@ p {
 #row-about .image-column .font-caption {
   font-size: 12.5pt;
 }
+#row-about .image-column iframe {
+  width: 100%;
+  float: right;
+  border-radius: 2px;
+}
 #row-contact {
   display: grid;
   grid-template-columns: 1fr 2fr;
