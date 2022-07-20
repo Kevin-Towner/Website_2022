@@ -280,6 +280,14 @@ p {
 #row-about div p {
   margin-bottom: 16px;
 }
+#row-about div p a {
+  text-decoration: none;
+  color: #526DFD;
+  font-weight: 400;
+}
+#row-about div p a:hover {
+  text-decoration: underline;
+}
 #row-about .image-column {
   display: flex;
   flex-direction: column;
@@ -299,11 +307,6 @@ p {
 }
 #row-about .image-column .font-caption a:hover {
   text-decoration: underline;
-}
-#row-about .image-column iframe {
-  width: 100%;
-  float: right;
-  border-radius: 2px;
 }
 #row-contact {
   display: grid;
