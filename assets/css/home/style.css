@@ -313,11 +313,11 @@ p {
 #row-contact div ul li {
   line-height: 180%;
   list-style-type: circle;
-  font-weight: 400;
 }
 #row-contact div ul li a {
   text-decoration: none;
   color: #526DFD;
+  font-weight: 400;
 }
 #row-contact div ul li a:hover {
   text-decoration: underline;
