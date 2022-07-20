@@ -278,7 +278,7 @@ p {
   grid-column-gap: 1em;
 }
 #row-about div p {
-  margin-bottom: 16px;
+  margin-bottom: 32px;
 }
 #row-about div p a {
   text-decoration: none;
@@ -288,6 +288,31 @@ p {
 #row-about div p a:hover {
   text-decoration: underline;
   @color- CTA-hover;
+}
+#row-about div .button-row a button {
+  background-color: #6C7583;
+  border: 2px solid #6C7583;
+  border-radius: 2px;
+  padding: 12px 20px 10px 20px;
+}
+#row-about div .button-row a button ul {
+  display: inline-flex;
+}
+#row-about div .button-row a button ul li {
+  font-weight: 400;
+  font-size: 12pt;
+  letter-spacing: 0.4px;
+  margin-left: 0;
+  color: #FDFDFD;
+}
+#row-about div .button-row a button ul li img {
+  width: 70%;
+}
+#row-about div .button-row a button:hover {
+  color: #FFF;
+  background-color: #1B58F5;
+  border: 2px solid #1B58F5;
+  cursor: pointer;
 }
 #row-about .image-column {
   display: flex;

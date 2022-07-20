@@ -269,7 +269,7 @@ p{
   grid-column-gap:1em;
   div{
     p{
-      margin-bottom:16px;
+      margin-bottom:32px;
       a{
         text-decoration: none;
         color:@color-CTA;
@@ -277,6 +277,35 @@ p{
         &:hover{
           text-decoration: underline;
           @color-CTA-hover;
+        }
+      }
+    }
+    .button-row{
+      a{
+        button{
+          background-color:@color-text_2;
+          border:2px solid @color-text_2;
+          border-radius:2px;
+          padding:12px 20px 10px 20px;
+          ul{
+            display:inline-flex;
+            li{
+              font-weight:400;
+              font-size:12pt;
+              letter-spacing:.4px;
+              margin-left:0;
+              color:@color-secondary;
+              img{
+                width:70%;
+              }
+            }
+          }
+          &:hover{
+            color:#FFF;
+            background-color:@color-CTA-hover;
+            border: 2px solid @color-CTA-hover;
+            cursor: pointer
+          }
         }
       }
     }
@@ -301,11 +330,6 @@ p{
         }
       }
     }
-    // iframe{
-    //   width:100%;
-    //   float:right;
-    //   border-radius:2px;
-    // }
   }
 }
 
