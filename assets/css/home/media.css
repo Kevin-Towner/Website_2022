@@ -10,6 +10,7 @@
 @media screen and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   h1{
     font-size:36pt;
+    margin:0 0 32px 0;
   }
 
   h2{
