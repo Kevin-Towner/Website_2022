@@ -211,7 +211,7 @@ h3{
 }
 
 h4{
-  .font-heading_text-h4
+  .font-heading_text-h4;
 }
 
 h5{
@@ -282,6 +282,53 @@ p{
     }
     .font-caption{
       font-size:12.5pt;
+    }
+  }
+}
+
+#row-contact{
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap:2em;
+  div{
+    p{
+      margin-bottom:32px;
+    }
+  }
+  .image-column{
+    display: flex;
+    flex-direction: column;
+    // text-align: center;
+    img{
+        width:80%;
+        float:right;
+        border-radius:2px;
+    }
+    .button-row{
+      a{
+        button{
+          background-color:@color-CTA;
+          border:2px solid @color-CTA;
+          border-radius:2px;
+          padding:12px 20px 10px 20px;
+          ul{
+            display:inline-flex;
+            li{
+              font-weight:400;
+              font-size:12pt;
+              letter-spacing:.4px;
+              margin-left:0;
+              color:@color-secondary;
+            }
+          }
+          &:hover{
+            color:#FFF;
+            background-color:#0066FF;
+            border: 2px solid #0066FF;
+            cursor: pointer
+          }
+        }
+      }
     }
   }
 }

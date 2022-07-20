@@ -292,3 +292,42 @@ p {
 #row-about .image-column .font-caption {
   font-size: 12.5pt;
 }
+#row-contact {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 2em;
+}
+#row-contact div p {
+  margin-bottom: 32px;
+}
+#row-contact .image-column {
+  display: flex;
+  flex-direction: column;
+}
+#row-contact .image-column img {
+  width: 80%;
+  float: right;
+  border-radius: 2px;
+}
+#row-contact .image-column .button-row a button {
+  background-color: #526DFD;
+  border: 2px solid #526DFD;
+  border-radius: 2px;
+  padding: 12px 20px 10px 20px;
+}
+#row-contact .image-column .button-row a button ul {
+  display: inline-flex;
+}
+#row-contact .image-column .button-row a button ul li {
+  font-weight: 400;
+  font-size: 12pt;
+  letter-spacing: 0.4px;
+  margin-left: 0;
+  color: #FDFDFD;
+}
+#row-contact .image-column .button-row a button:hover {
+  color: #FFF;
+  background-color: #0066FF;
+  border: 2px solid #0066FF;
+  cursor: pointer;
+}

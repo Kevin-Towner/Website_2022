@@ -70,7 +70,7 @@
   } */
 }
 
-@media screen and (max-width:520px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media screen and (max-width:600px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
   label{
     display:block;
     cursor:pointer;

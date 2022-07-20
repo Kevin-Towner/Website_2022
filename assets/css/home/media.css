@@ -9,7 +9,7 @@
 
 @media screen and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   h1{
-
+    font-size:38pt;
   }
 
   h2{
@@ -48,6 +48,7 @@
   #row-header div a img {
     width:33%;
     float: none;
+    text-align: center;
   }
 
   #row-header div p {
