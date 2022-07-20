@@ -311,6 +311,7 @@ p {
 }
 #row-contact div ul li {
   line-height: 180%;
+  list-style-type: circle;
 }
 #row-contact div ul li a {
   text-decoration: none;
