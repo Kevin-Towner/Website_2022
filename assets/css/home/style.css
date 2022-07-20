@@ -278,7 +278,7 @@ p {
   grid-column-gap: 2em;
 }
 #row-about div p {
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 }
 #row-about .image-column {
   display: flex;
