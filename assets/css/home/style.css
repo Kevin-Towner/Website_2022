@@ -120,7 +120,7 @@
   font-size: 14pt;
   line-height: 150%;
   font-weight: 300;
-  color: #545A65;
+  color: #25282F;
   margin: 0 0 16px 0;
 }
 .font-hyperlink_text {
@@ -128,7 +128,7 @@
   margin: 0;
   font-size: 14pt;
   line-height: 150%;
-  color: #545A65;
+  color: #25282F;
   margin: 0 0 16px 0;
   text-decoration: none;
   font-weight: 300;
@@ -142,7 +142,7 @@
   font-family: 'Roboto', sans-serif;
   margin: 0;
   line-height: 150%;
-  color: #545A65;
+  color: #25282F;
   margin: 0 0 16px 0;
   color: #2E69FF;
   text-decoration: none;
@@ -154,7 +154,7 @@
   color: #2E69FF;
 }
 .font-caption {
-  color: #545A65;
+  color: #25282F;
   font-family: 'Roboto', sans-serif;
   line-height: 140%;
   font-weight: 300;
@@ -236,7 +236,7 @@ p {
   font-size: 14pt;
   line-height: 150%;
   font-weight: 300;
-  color: #545A65;
+  color: #25282F;
   margin: 0 0 16px 0;
 }
 #row-header {
@@ -322,7 +322,7 @@ p {
   font-size: 14pt;
   line-height: 150%;
   font-weight: 300;
-  color: #545A65;
+  color: #25282F;
   margin: 0 0 16px 0;
   list-style-position: inside;
 }
