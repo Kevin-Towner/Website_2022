@@ -50,10 +50,11 @@
   #row-header div p {
     margin-bottom: 32px;
   }
-  #row-header div a img {
+
+  #gundam-logo{
     display:none;
   }
-
+  
   #row-header div p {
     width:100%;
     line-height:160%;
