@@ -9,15 +9,15 @@
 
 @media screen and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   h1{
-    font-size:38pt;
+    font-size:36pt;
   }
 
   h2{
-
+    font-size:28pt;
   }
 
   h3{
-
+    font-size:22pt;
   }
 
   .row {
@@ -46,9 +46,7 @@
     margin-bottom: 32px;
   }
   #row-header div a img {
-    width:33%;
-    float: none;
-    text-align: center;
+    display:none;
   }
 
   #row-header div p {
