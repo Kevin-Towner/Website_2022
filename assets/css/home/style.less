@@ -2,8 +2,8 @@
 @color-secondary:#FDFDFD;
 @color-text_1:#25282F;
 @color-text_2:#6C7583;
-@color-CTA:#526DFD;
-@color-CTA-Alt:#0066FF;
+@color-CTA:#5282FD;
+@color-CTA-hover:#1B58F5;
 @color-hyperlink:#2E69FF;
 @box-shadow-primary: rgba(60, 64, 67, 0.4) 0px 1.5px 3px 0px, rgba(60, 64, 67, 0.2) 0px -.5px 3px 1px;
 @box-shadow-hover: rgba(50, 50, 93, 0.2) 0px 6px 12px -2px, rgba(0, 0, 0, 0.2) 0px -1px 6px -2px;
@@ -254,8 +254,8 @@ p{
           }
           &:hover{
             color:#FFF;
-            background-color:#0066FF;
-            border: 2px solid #0066FF;
+            background-color:@color-CTA-hover;
+            border: 2px solid @color-CTA-hover;
             cursor: pointer
           }
         }
@@ -276,6 +276,7 @@ p{
         font-weight:400;
         &:hover{
           text-decoration: underline;
+          @color-CTA-hover;
         }
       }
     }
@@ -296,6 +297,7 @@ p{
         font-weight:400;
         &:hover{
           text-decoration: underline;
+          color:@color-CTA-hover;
         }
       }
     }
@@ -327,6 +329,7 @@ p{
           font-weight:400;
           &:hover{
             text-decoration: underline;
+            color:@color-CTA-hover;
           }
         }
       }

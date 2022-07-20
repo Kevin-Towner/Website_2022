@@ -251,8 +251,8 @@ p {
   float: right;
 }
 #row-header div .button-row a button {
-  background-color: #526DFD;
-  border: 2px solid #526DFD;
+  background-color: #5282FD;
+  border: 2px solid #5282FD;
   border-radius: 2px;
   padding: 12px 20px 10px 20px;
 }
@@ -268,8 +268,8 @@ p {
 }
 #row-header div .button-row a button:hover {
   color: #FFF;
-  background-color: #0066FF;
-  border: 2px solid #0066FF;
+  background-color: #1B58F5;
+  border: 2px solid #1B58F5;
   cursor: pointer;
 }
 #row-about {
@@ -282,11 +282,12 @@ p {
 }
 #row-about div p a {
   text-decoration: none;
-  color: #526DFD;
+  color: #5282FD;
   font-weight: 400;
 }
 #row-about div p a:hover {
   text-decoration: underline;
+  @color- CTA-hover;
 }
 #row-about .image-column {
   display: flex;
@@ -302,11 +303,12 @@ p {
 }
 #row-about .image-column .font-caption a {
   text-decoration: none;
-  color: #526DFD;
+  color: #5282FD;
   font-weight: 400;
 }
 #row-about .image-column .font-caption a:hover {
   text-decoration: underline;
+  color: #1B58F5;
 }
 #row-contact {
   display: grid;
@@ -332,11 +334,12 @@ p {
 }
 #row-contact div ul li a {
   text-decoration: none;
-  color: #526DFD;
+  color: #5282FD;
   font-weight: 400;
 }
 #row-contact div ul li a:hover {
   text-decoration: underline;
+  color: #1B58F5;
 }
 #row-contact .image-column {
   display: flex;
