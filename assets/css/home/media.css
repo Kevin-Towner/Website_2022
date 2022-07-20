@@ -20,6 +20,10 @@
     font-size:22pt;
   }
 
+  h4{
+    font-size:16pt;
+  }
+
   .row {
 
   }
@@ -72,6 +76,14 @@
     border-bottom:none;
     margin:24px 0 24px 0;
     line-height:0;
+  }
+
+  #row-about{
+    grid-template-columns: 1fr;
+  }
+
+  #row-contact{
+      grid-template-columns: 1fr;
   }
 
 }
