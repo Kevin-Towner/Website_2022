@@ -292,6 +292,14 @@ p {
 #row-about .image-column .font-caption {
   font-size: 12.5pt;
 }
+#row-about .image-column .font-caption a {
+  text-decoration: none;
+  color: #526DFD;
+  font-weight: 400;
+}
+#row-about .image-column .font-caption a:hover {
+  text-decoration: underline;
+}
 #row-about .image-column iframe {
   width: 100%;
   float: right;

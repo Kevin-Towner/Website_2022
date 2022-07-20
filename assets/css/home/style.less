@@ -282,11 +282,19 @@ p{
     }
     .font-caption{
       font-size:12.5pt;
+      a{
+        text-decoration: none;
+        color:@color-CTA;
+        font-weight:400;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
     }
     iframe{
       width:100%;
       float:right;
-      border-radius:2px;      
+      border-radius:2px;
     }
   }
 }
