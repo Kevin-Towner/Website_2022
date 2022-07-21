@@ -275,7 +275,7 @@ p {
 #row-about {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-column-gap: 1em;
+  grid-column-gap: 2em;
 }
 #row-about div p {
   margin-bottom: 32px;
