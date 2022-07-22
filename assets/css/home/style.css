@@ -46,12 +46,14 @@
   opacity: 0;
   transition: 0.3s;
   margin-block-end: 0;
+  padding: 24% 1em 0 1em;
 }
 .row-33_33_33-primary div a h4 span {
   font-weight: 300;
   font-size: 14pt;
   line-height: 140%;
   width: 90%;
+  padding-top: 0;
 }
 .row-33_33_33-primary div a h4:hover {
   opacity: 0.92;
