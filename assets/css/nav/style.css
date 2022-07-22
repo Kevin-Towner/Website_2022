@@ -58,6 +58,7 @@ label{
 }
 #menu > li:nth-child(1){
   margin-right:28px;
+  justify-content:space-between;
 }
 #menu > li:nth-child(2){
   margin-right:28px;
