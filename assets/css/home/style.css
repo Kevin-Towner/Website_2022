@@ -305,7 +305,7 @@ p {
   cursor: pointer;
 }
 #row-about div #pixel-frog {
-  width: 64px;
+  width: 48px;
 }
 #row-about .image-column {
   display: flex;
