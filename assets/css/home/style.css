@@ -252,23 +252,28 @@ p {
   width: 70%;
   float: right;
 }
-#row-header div .button-row a button {
+#row-header div .button-row form button {
   background-color: #5282FD;
   border: 2px solid #5282FD;
   border-radius: 2px;
   padding: 12px 20px 10px 20px;
 }
-#row-header div .button-row a button ul {
+#row-header div .button-row form button div {
   display: inline-flex;
+  align-items: center;
 }
-#row-header div .button-row a button ul li {
+#row-header div .button-row form button div span {
   font-weight: 400;
   font-size: 12pt;
   letter-spacing: 0.4px;
   margin-left: 0;
   color: #FDFDFD;
 }
-#row-header div .button-row a button:hover {
+#row-header div .button-row form button div span img {
+  width: 80%;
+  float: right;
+}
+#row-header div .button-row form button:hover {
   color: #FFF;
   background-color: #1B58F5;
   border: 2px solid #1B58F5;

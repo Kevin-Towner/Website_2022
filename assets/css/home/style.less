@@ -242,20 +242,25 @@ p{
       }
     }
     .button-row{
-      a{
+      form{
         button{
           background-color:@color-CTA;
           border:2px solid @color-CTA;
           border-radius:2px;
           padding:12px 20px 10px 20px;
-          ul{
+          div{
             display:inline-flex;
-            li{
+              align-items:center;
+            span{
               font-weight:400;
               font-size:12pt;
               letter-spacing:.4px;
               margin-left:0;
               color:@color-secondary;
+              img{
+                width:80%;
+                float:right;
+              }
             }
           }
           &:hover{
