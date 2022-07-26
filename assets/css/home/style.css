@@ -271,6 +271,14 @@ p {
   align-items: center;
 }
 #row-header div .button-row form button span {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 14pt;
+  line-height: 150%;
+  font-weight: 300;
+  color: #25282F;
+  margin: 0 0 16px 0;
+  margin-bottom: 0;
   font-weight: 400;
   font-size: 12pt;
   letter-spacing: 0.4px;
