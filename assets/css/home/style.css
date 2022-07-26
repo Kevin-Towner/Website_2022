@@ -267,19 +267,17 @@ p {
   border-radius: 2px;
   padding: 12px 20px 10px 20px;
   transition: 0.3s;
-}
-#row-header div .button-row form button div {
   display: inline-flex;
   align-items: center;
 }
-#row-header div .button-row form button div span {
+#row-header div .button-row form button span {
   font-weight: 400;
   font-size: 12pt;
   letter-spacing: 0.4px;
   margin-left: 0;
   color: #FDFDFD;
 }
-#row-header div .button-row form button div span img {
+#row-header div .button-row form button span img {
   width: 80%;
   float: right;
 }
