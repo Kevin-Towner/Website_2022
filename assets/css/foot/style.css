@@ -33,10 +33,20 @@ footer div ul {
   margin: 0;
   display: inline-flex;
 }
+
+footer div ul li:nth-child(1){
+  margin-right:16px;
+}
+
 footer div ul li a .footer-icon {
   margin-top: 2px;
   height: 24px;
 }
+
 footer div ul li a #footer-icon_instagram {
   padding-left: 24px;
+}
+
+li > footer div ul:nth-child(1) {
+  margin-right: 16px;
 }
