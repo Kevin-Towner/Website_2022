@@ -15,7 +15,7 @@
   margin: auto;
   animation: fadeInAnimation ease 1.3s;
   animation-iteration-count: 1;
-  animation-fill-mode: forward;
+  animation-fill-mode: forwards;
 }
 .container-body-100 {
   margin: 0 auto;
