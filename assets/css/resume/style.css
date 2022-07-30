@@ -71,6 +71,17 @@
 .row-33_33_33-primary div .font-caption {
   display: none;
 }
+.row-70_30-primary {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 2em;
+  margin-bottom: 1.5em;
+}
+.row-100-primary {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 1.5em;
+}
 .image-column {
   display: flex;
   flex-direction: column;
@@ -108,7 +119,7 @@
 }
 .font-heading_text-h4 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
@@ -119,7 +130,7 @@
 .font-heading_text-h5 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 16.5pt;
+  font-size: 16pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
   text-align: left;
@@ -224,7 +235,7 @@ h3 {
 }
 h4 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
@@ -235,7 +246,7 @@ h4 {
 h5 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 16.5pt;
+  font-size: 16pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
   text-align: left;
@@ -243,6 +254,15 @@ h5 {
   color: #6C7583;
 }
 p {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 14pt;
+  line-height: 150%;
+  font-weight: 300;
+  color: #25282F;
+  margin: 0 0 16px 0;
+}
+ul {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 14pt;
@@ -296,69 +316,34 @@ p {
   border: 2px solid #1B58F5;
   cursor: pointer;
 }
-#row-about {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-column-gap: 2em;
-}
-#row-about div .button-row a button {
-  background-color: #6C7583;
-  border: 2px solid #6C7583;
+#row-resume_content {
+  background-color: #FFF;
+  padding: 3em 2em 3em 2em;
   border-radius: 2px;
-  padding: 12px 20px 10px 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
-#row-about div .button-row a button ul {
-  display: inline-flex;
+#row-resume_content h4 {
+  font-size: 26pt;
+  margin-bottom: 0;
 }
-#row-about div .button-row a button ul li {
-  font-weight: 400;
-  font-size: 12pt;
-  letter-spacing: 0.4px;
-  margin-left: 0;
-  color: #FCFCFC;
-}
-#row-about div .button-row a button ul li img {
-  width: 70%;
-}
-#row-about div .button-row a button:hover {
-  color: #FFF;
-  background-color: #1B58F5;
-  border: 2px solid #1B58F5;
-  cursor: pointer;
-}
-#row-about div #pixel-frog {
-  width: 48px;
-}
-#row-about .image-column {
-  display: flex;
-  flex-direction: column;
-}
-#row-about .image-column img {
-  width: 100%;
-  float: right;
-  border-radius: 2px;
-}
-#row-about .image-column .font-caption {
-  font-size: 12.5pt;
-}
-#row-about .image-column .font-caption a {
-  text-decoration: none;
-  color: #5282FD;
-  font-weight: 400;
-}
-#row-about .image-column .font-caption a:hover {
-  text-decoration: underline;
+#row-resume_content h5 {
+  font-size: 16pt;
   color: #1B58F5;
 }
-#row-contact {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 3em;
+#row-resume_content div p {
+  font-size: 11pt;
 }
-#row-contact div p {
-  margin-bottom: 32px;
+#row-resume_content .row-100-primary h5 {
+  font-size: 16pt;
+  color: #1B58F5;
+  margin-bottom: 8px;
 }
-#row-contact div ul {
+#row-resume_content .row-70_30-primary div h5 {
+  font-size: 16pt;
+  color: #1B58F5;
+  margin-bottom: 8px;
+}
+#row-resume_content .row-70_30-primary div ul {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 14pt;
@@ -366,27 +351,146 @@ p {
   font-weight: 300;
   color: #25282F;
   margin: 0 0 16px 0;
+  font-size: 11pt;
   list-style-position: inside;
 }
-#row-contact div ul li {
+#row-resume_content .row-70_30-primary div ul li {
   line-height: 180%;
-  list-style-type: circle;
 }
-#row-contact div ul li a {
+#row-resume_content .row-70_30-primary div ul li a {
   text-decoration: none;
-  color: #5282FD;
-  font-weight: 400;
+  color: #6C7583;
 }
-#row-contact div ul li a:hover {
+#row-resume_content .row-70_30-primary div ul li a:hover {
   text-decoration: underline;
   color: #1B58F5;
 }
-#row-contact .image-column {
-  display: flex;
-  flex-direction: column;
+#row-resume_content .row-70_30-primary div p {
+  font-size: 11pt;
 }
-#row-contact .image-column img {
-  width: 90%;
-  float: right;
-  border-radius: 2px;
+#row-resume_content .row-70_30-primary #column-jobs div ul {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 14pt;
+  line-height: 150%;
+  font-weight: 300;
+  color: #25282F;
+  margin: 0 0 16px 0;
+  font-size: 11pt;
+  list-style-position: inside;
+  list-style-type: disc;
+  margin-top: 8px;
+}
+#row-resume_content .row-70_30-primary #column-jobs div ul li {
+  line-height: 160%;
+  margin-left: 1em;
+}
+#row-resume_content .row-70_30-primary #column-jobs div ul li a {
+  text-decoration: none;
+  color: #25282F;
+  font-weight: 400;
+}
+#row-resume_content .row-70_30-primary #column-jobs div ul li a:hover {
+  text-decoration: underline;
+  color: #1B58F5;
+}
+#row-resume_content .row-70_30-primary #column-jobs div .divider {
+  color: #1B58F5;
+}
+#row-resume_content .row-70_30-primary #column-jobs div .job-title {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 14pt;
+  line-height: 150%;
+  font-weight: 300;
+  color: #25282F;
+  margin: 0 0 16px 0;
+  font-size: 12pt;
+  font-weight: 400;
+}
+#row-resume_content .row-70_30-primary #column-jobs div .company-name {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 14pt;
+  line-height: 150%;
+  font-weight: 300;
+  color: #25282F;
+  margin: 0 0 16px 0;
+  font-size: 12pt;
+  font-weight: 400;
+}
+#row-resume_content .row-70_30-primary #column-jobs div .job-dates {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 14pt;
+  line-height: 150%;
+  font-weight: 300;
+  color: #25282F;
+  margin: 0 0 16px 0;
+  font-size: 12pt;
+  font-style: italic;
+  color: #6C7583;
+}
+#row-resume_content .row-70_30-primary #column-skills div ul {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 14pt;
+  line-height: 150%;
+  font-weight: 300;
+  color: #25282F;
+  margin: 0 0 16px 0;
+  font-size: 11pt;
+  list-style-position: inside;
+  list-style-type: disc;
+  margin-top: 8px;
+}
+#row-resume_content .row-70_30-primary #column-skills div ul li {
+  line-height: 160%;
+  margin-left: 1em;
+}
+#row-resume_content .row-70_30-primary #column-skills div ul li a {
+  text-decoration: none;
+  color: #25282F;
+  font-weight: 400;
+}
+#row-resume_content .row-70_30-primary #column-skills div ul li a:hover {
+  text-decoration: underline;
+  color: #1B58F5;
+}
+#row-resume_content .row-70_30-primary #column-skills div .divider {
+  color: #1B58F5;
+}
+#row-resume_content .row-70_30-primary #column-skills div .job-title {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 14pt;
+  line-height: 150%;
+  font-weight: 300;
+  color: #25282F;
+  margin: 0 0 16px 0;
+  font-size: 12pt;
+  font-weight: 400;
+}
+#row-resume_content .row-70_30-primary #column-skills div .company-name {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 14pt;
+  line-height: 150%;
+  font-weight: 300;
+  color: #25282F;
+  margin: 0 0 16px 0;
+  font-size: 12pt;
+  font-weight: 400;
+}
+#row-resume_content .row-70_30-primary #column-skills div .job-dates {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 14pt;
+  line-height: 150%;
+  font-weight: 300;
+  color: #25282F;
+  margin: 0 0 16px 0;
+  font-size: 12pt;
+  font-style: italic;
+  color: #6C7583;
 }

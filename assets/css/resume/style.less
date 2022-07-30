@@ -95,6 +95,19 @@
   }
 }
 
+.row-70_30-primary{
+  display:grid;
+  grid-template-columns:2fr 1fr;
+  grid-gap:2em;
+  margin-bottom:1.5em;
+}
+
+.row-100-primary{
+  display:grid;
+  grid-template-columns: 1fr;
+  margin-bottom:1.5em;
+}
+
 .image-column{
   display: flex;
   flex-direction: column;
@@ -150,7 +163,7 @@
 
 .font-heading_text-h4{
   font-family: 'Roboto', sans-serif;
-  font-weight:400;
+  font-weight:500;
   font-size:20pt;
   letter-spacing:.3px;
   margin: 0 0 12px 0;
@@ -162,7 +175,7 @@
 .font-heading_text-h5{
   font-family: 'Roboto', sans-serif;
   font-weight:400;
-  font-size:16.5pt;
+  font-size:16pt;
   letter-spacing:.3px;
   margin: 0 0 12px 0;
   text-align: left;
@@ -258,6 +271,10 @@ p{
   .font-body_text-p;
 }
 
+ul{
+  .font-body_text-p;
+}
+
 #row-header{
   display:grid;
   grid-template-columns: 2fr 1fr;
@@ -305,101 +322,143 @@ p{
     }
   }
 }
-#row-about{
-  display:grid;
-  grid-template-columns: 2fr 1fr;
-  grid-column-gap:2em;
+#row-resume_content{
+  background-color:@color-primary;
+  padding:3em 2em 3em 2em;
+  border-radius:2px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  h4{
+    font-size:26pt;
+    margin-bottom:0;
+  }
+  h5{
+    font-size:16pt;
+    color:@color-CTA-hover;
+  }
   div{
-    .button-row{
-      a{
-        button{
-          background-color:@color-text_2;
-          border:2px solid @color-text_2;
-          border-radius:2px;
-          padding:12px 20px 10px 20px;
-          ul{
-            display:inline-flex;
-            li{
+    p{
+      font-size:11pt;
+    }
+  }
+  .row-100-primary{
+    h5{
+      font-size:16pt;
+      color:@color-CTA-hover;
+      margin-bottom:8px;
+    }
+  }
+  .row-70_30-primary{
+    div{
+      h5{
+        font-size:16pt;
+        color:@color-CTA-hover;
+        margin-bottom:8px;
+      }
+      ul{
+        .font-body_text-p;
+        font-size:11pt;
+        list-style-position:inside;
+        li{
+          line-height:180%;
+          a{
+            text-decoration: none;
+            color:@color-text_2;
+            &:hover{
+              text-decoration: underline;
+              color:@color-CTA-hover;
+            }
+          }
+        }
+      }
+      p{
+        font-size:11pt;
+      }
+    }
+    #column-jobs{
+      div{
+        ul{
+          .font-body_text-p;
+          font-size:11pt;
+          list-style-position:inside;
+          list-style-type: disc;
+          margin-top:8px;
+          li{
+            line-height:160%;
+            margin-left:1em;
+            a{
+              text-decoration: none;
+              color:@color-text_1;
               font-weight:400;
-              font-size:12pt;
-              letter-spacing:.4px;
-              margin-left:0;
-              color:@color-secondary;
-              img{
-                width:70%;
+              &:hover{
+                text-decoration: underline;
+                color:@color-CTA-hover;
               }
             }
           }
-          &:hover{
-            color:#FFF;
-            background-color:@color-CTA-hover;
-            border: 2px solid @color-CTA-hover;
-            cursor: pointer
-          }
         }
-      }
-    }
-    #pixel-frog{
-      width:48px;
-    }
-  }
-  .image-column{
-    display: flex;
-    flex-direction: column;
-    img{
-        width:100%;
-        float:right;
-        border-radius:2px;
-    }
-    .font-caption{
-      font-size:12.5pt;
-      a{
-        text-decoration: none;
-        color:@color-CTA;
-        font-weight:400;
-        &:hover{
-          text-decoration: underline;
+        .divider{
           color:@color-CTA-hover;
         }
-      }
-    }
-  }
-}
-
-#row-contact{
-  display:grid;
-  grid-template-columns: 1fr 2fr;
-  grid-gap:3em;
-  div{
-    p{
-      margin-bottom:32px;
-    }
-    ul{
-      .font-body_text-p;
-      list-style-position:inside;
-      li{
-        line-height: 180%;
-        list-style-type:circle;
-        a{
-          text-decoration: none;
-          color:@color-CTA;
+        .job-title{
+          .font-body_text-p;
+          font-size:12pt;
           font-weight:400;
-          &:hover{
-            text-decoration: underline;
-            color:@color-CTA-hover;
-          }
+        }
+        .company-name{
+          .font-body_text-p;
+          font-size:12pt;
+          font-weight:400;
+        }
+        .job-dates{
+          .font-body_text-p;
+          font-size:12pt;
+          font-style:italic;
+          color:@color-text_2;
         }
       }
     }
-  }
-  .image-column{
-    display: flex;
-    flex-direction: column;
-    // text-align: center;
-    img{
-        width:90%;
-        float:right;
-        border-radius:2px;
+    #column-skills{
+      div{
+        ul{
+          .font-body_text-p;
+          font-size:11pt;
+          list-style-position:inside;
+          list-style-type: disc;
+          margin-top:8px;
+          li{
+            line-height:160%;
+            margin-left:1em;
+            a{
+              text-decoration: none;
+              color:@color-text_1;
+              font-weight:400;
+              &:hover{
+                text-decoration: underline;
+                color:@color-CTA-hover;
+              }
+            }
+          }
+        }
+        .divider{
+          color:@color-CTA-hover;
+        }
+        .job-title{
+          .font-body_text-p;
+          font-size:12pt;
+          font-weight:400;
+        }
+        .company-name{
+          .font-body_text-p;
+          font-size:12pt;
+          font-weight:400;
+        }
+        .job-dates{
+          .font-body_text-p;
+          font-size:12pt;
+          font-style:italic;
+          color:@color-text_2;
+        }
+      }
     }
   }
 }
