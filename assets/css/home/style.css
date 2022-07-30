@@ -44,6 +44,7 @@
   border-radius: 2px;
 }
 .row-33_33_33-primary div a h4 {
+  line-height: initial;
   text-align: center;
   top: 0;
   left: 0;
@@ -83,18 +84,18 @@
   margin: 0 0 36px;
 }
 .font-heading_text-h2 {
-  border-bottom: 1px solid #9199A6;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 30pt;
+  text-align: left;
+  color: #6C7583;
+  border-bottom: 1px solid #a9a9a9;
   line-height: 0.1em;
-  margin: 0 0 64px 0;
+  margin: 0 0 2em 0;
 }
 .font-heading_text-h2 span {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 30pt;
-  color: #6C7583;
   background: #FDFDFD;
   padding: 0 0.5em 0 0px;
-  margin-left: 0;
 }
 .font-heading_text-h3 {
   font-family: 'Roboto', sans-serif;
@@ -199,18 +200,18 @@ h1 {
   margin: 0 0 36px;
 }
 h2 {
-  border-bottom: 1px solid #9199A6;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 30pt;
+  text-align: left;
+  color: #6C7583;
+  border-bottom: 1px solid #a9a9a9;
   line-height: 0.1em;
-  margin: 0 0 64px 0;
+  margin: 0 0 2em 0;
 }
 h2 span {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 30pt;
-  color: #6C7583;
   background: #FDFDFD;
   padding: 0 0.5em 0 0px;
-  margin-left: 0;
 }
 h3 {
   font-family: 'Roboto', sans-serif;

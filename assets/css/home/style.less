@@ -2,6 +2,7 @@
 @color-secondary:#FDFDFD;
 @color-text_1:#25282F;
 @color-text_2:#6C7583;
+@color-light_grey:#a9a9a9;
 @color-CTA:#5282FD;
 @color-CTA-hover:#1B58F5;
 @color-hyperlink:#2E69FF;
@@ -63,6 +64,7 @@
         border-radius:2px;
       }
       h4{
+        line-height: initial;
         text-align: center;
         top: 0;
         left: 0;
@@ -107,18 +109,33 @@
   color:@color-text_2;
   margin:0 0 36px;
 }
+// .font-heading_text-h2{
+//   border-bottom:1px solid #9199A6;
+//   line-height: .1em;
+//   margin:0 0 64px 0;
+//   span{
+//     font-family: 'Roboto', sans-serif;
+//     font-weight:400;
+//     font-size:30pt;
+//     color:@color-text_2;
+//     background:@color-secondary;
+//     padding:0 .5em 0 0px;
+//     margin-left:0;
+//   }
+// }
+
 .font-heading_text-h2{
-  border-bottom:1px solid #9199A6;
+  font-family: 'Roboto', sans-serif;
+  font-weight:300;
+  font-size:30pt;
+  text-align: left;
+  color:@color-text_2;
+  border-bottom:1px solid @color-light_grey;
   line-height: 0.1em;
-  margin:0 0 64px 0;
+  margin:0 0 2em 0;
   span{
-    font-family: 'Roboto', sans-serif;
-    font-weight:400;
-    font-size:30pt;
-    color:@color-text_2;
     background:@color-secondary;
     padding:0 .5em 0 0px;
-    margin-left:0;
   }
 }
 .font-heading_text-h3{
