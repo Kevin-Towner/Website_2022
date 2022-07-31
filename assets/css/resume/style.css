@@ -89,14 +89,14 @@
 /* - - - - FONTS - - - - - - */
 .font-heading_text-h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 42pt;
   color: #6C7583;
   margin: 0 0 36px;
 }
 .font-heading_text-h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 30pt;
   text-align: left;
   color: #6C7583;
@@ -205,14 +205,14 @@ body {
 }
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 42pt;
   color: #6C7583;
   margin: 0 0 36px;
 }
 h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 30pt;
   text-align: left;
   color: #6C7583;
@@ -279,7 +279,7 @@ ul {
   margin-bottom: 32px;
 }
 #row-header div a img {
-  width: 70%;
+  width: 66%;
   float: right;
 }
 #row-header div .button-row form button {

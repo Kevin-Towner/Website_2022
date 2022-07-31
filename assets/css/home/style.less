@@ -51,48 +51,6 @@
   display:grid;
   grid-template-columns:1fr 1fr 1fr;
   grid-gap:.5em;
-  div{
-    a{
-      position: relative;
-      display: inline-block;
-      vertical-align:middle;
-      margin:0;
-      img{
-        max-width:100%;
-        min-width:100%;
-        min-height:250px;
-        border-radius:2px;
-      }
-      h4{
-        line-height: initial;
-        text-align: center;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        margin: auto;
-        position: absolute;
-        background: @color-CTA-hover;
-        color: #fff;
-        opacity:0;
-        transition:.3s;
-        margin-block-end:0;
-        padding:20% 1em 0 1em;
-        span{
-          font-weight:300;
-          font-size:14pt;
-          width:90%;
-          padding-top:0;
-        }
-        &:hover{
-          opacity:.92;
-        }
-      }
-    }
-    .font-caption{
-      display:none;
-    }
-  }
 }
 
 .image-column{
@@ -104,7 +62,7 @@
 
 .font-heading_text-h1{
   font-family: 'Roboto', sans-serif;
-  font-weight:300;
+  font-weight:400;
   font-size:42pt;
   color:@color-text_2;
   margin:0 0 36px;
@@ -126,7 +84,7 @@
 
 .font-heading_text-h2{
   font-family: 'Roboto', sans-serif;
-  font-weight:300;
+  font-weight:400;
   font-size:30pt;
   text-align: left;
   color:@color-text_2;
@@ -267,44 +225,110 @@ p{
     }
     a{
       img{
-        width:70%;
+        width:66%;
         float:right;
       }
     }
     .button-row{
-      form{
-        button{
-          background-color:@color-CTA;
-          border:2px solid @color-CTA;
-          border-radius:2px;
-          padding:12px 20px 10px 20px;
-          transition:.3s;
-          display:inline-flex;
-          align-items:center;
-          span{
-            .font-body_text-p;
-            margin-bottom:0;
+      ul{
+        .font-body_text-p;
+        list-style-position:inside;
+        li{
+          line-height: 180%;
+          a{
+            text-decoration: none;
+            color:@color-CTA;
             font-weight:400;
-            font-size:12pt;
-            letter-spacing:.4px;
-            margin-left:0;
-            color:@color-secondary;
-            img{
-              width:80%;
-              float:right;
+            &:hover{
+              text-decoration: underline;
+              color:@color-CTA-hover;
             }
-          }
-          &:hover{
-            color:#FFF;
-            background-color:@color-CTA-hover;
-            border: 2px solid @color-CTA-hover;
-            cursor: pointer
           }
         }
       }
     }
   }
 }
+
+#row-projects{
+  .row-33_33_33-primary{
+    div{
+      a{
+        position: relative;
+        display: inline-block;
+        vertical-align:middle;
+        margin:0;
+        img{
+          max-width:100%;
+          min-width:100%;
+          min-height:250px;
+          border-radius:2px;
+        }
+        h4{
+          line-height: initial;
+          text-align: center;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+          position: absolute;
+          background: @color-CTA-hover;
+          color: #fff;
+          opacity:0;
+          transition:.3s;
+          margin-block-end:0;
+          padding:20% 1em 0 1em;
+          span{
+            font-weight:300;
+            font-size:14pt;
+            width:90%;
+            padding-top:0;
+          }
+          &:hover{
+            opacity:.92;
+          }
+        }
+      }
+      .font-caption{
+        display:none;
+      }
+    }
+  }
+  form{
+    float:right;
+    margin-top:2em;
+    button{
+      background-color:@color-CTA;
+      border:2px solid @color-CTA;
+      border-radius:2px;
+      padding:12px 20px 10px 20px;
+      transition:.3s;
+      display:inline-flex;
+      align-items:center;
+      span{
+        .font-body_text-p;
+        margin-bottom:0;
+        font-weight:400;
+        font-size:12pt;
+        letter-spacing:.4px;
+        margin-left:0;
+        color:@color-secondary;
+        img{
+          width:80%;
+          float:right;
+        }
+      }
+      &:hover{
+        color:#FFF;
+        background-color:@color-CTA-hover;
+        border: 2px solid @color-CTA-hover;
+        cursor: pointer
+      }
+    }
+  }
+}
+
 #row-about{
   display:grid;
   grid-template-columns: 2fr 1fr;
