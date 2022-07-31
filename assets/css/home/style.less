@@ -299,7 +299,9 @@ p{
     float:right;
     margin-top:2em;
     button{
-      background-color:@color-CTA;
+      .font-body_text-p;
+      color:@color-CTA-hover;
+      background-color:@color-primary;
       border:2px solid @color-CTA;
       border-radius:2px;
       padding:12px 20px 10px 20px;
@@ -307,22 +309,20 @@ p{
       display:inline-flex;
       align-items:center;
       span{
-        .font-body_text-p;
         margin-bottom:0;
         font-weight:400;
         font-size:12pt;
         letter-spacing:.4px;
         margin-left:0;
-        color:@color-secondary;
         img{
           width:80%;
           float:right;
         }
       }
       &:hover{
-        color:#FFF;
+        color:@color-primary;
         background-color:@color-CTA-hover;
-        border: 2px solid @color-CTA-hover;
+        border: 2px solid @color-CTA;
         cursor: pointer
       }
     }

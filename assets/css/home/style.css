@@ -45,7 +45,7 @@
 }
 .font-heading_text-h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 30pt;
   text-align: left;
   color: #6C7583;
@@ -161,7 +161,7 @@ h1 {
 }
 h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 30pt;
   text-align: left;
   color: #6C7583;
@@ -289,7 +289,15 @@ p {
   margin-top: 2em;
 }
 #row-projects form button {
-  background-color: #5282FD;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 14pt;
+  line-height: 150%;
+  font-weight: 300;
+  color: #25282F;
+  margin: 0 0 16px 0;
+  color: #1B58F5;
+  background-color: #FFF;
   border: 2px solid #5282FD;
   border-radius: 2px;
   padding: 12px 20px 10px 20px;
@@ -298,19 +306,11 @@ p {
   align-items: center;
 }
 #row-projects form button span {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  font-size: 14pt;
-  line-height: 150%;
-  font-weight: 300;
-  color: #25282F;
-  margin: 0 0 16px 0;
   margin-bottom: 0;
   font-weight: 400;
   font-size: 12pt;
   letter-spacing: 0.4px;
   margin-left: 0;
-  color: #FCFCFC;
 }
 #row-projects form button span img {
   width: 80%;
@@ -319,7 +319,7 @@ p {
 #row-projects form button:hover {
   color: #FFF;
   background-color: #1B58F5;
-  border: 2px solid #1B58F5;
+  border: 2px solid #5282FD;
   cursor: pointer;
 }
 #row-about {
