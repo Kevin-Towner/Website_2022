@@ -343,6 +343,10 @@ ul {
   color: #1B58F5;
   margin-bottom: 8px;
 }
+#row-resume_content .row-70_30-primary div #header-h5 {
+  color: #6C7583;
+  font-weight: 500;
+}
 #row-resume_content .row-70_30-primary div ul {
   font-family: 'Roboto', sans-serif;
   margin: 0;

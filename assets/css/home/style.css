@@ -239,6 +239,7 @@ p {
   text-decoration: none;
   color: #5282FD;
   font-weight: 400;
+  transition: 0.3s;
 }
 #row-header div .button-row ul li a:hover {
   text-decoration: underline;
