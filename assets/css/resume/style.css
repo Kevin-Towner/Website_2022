@@ -338,6 +338,9 @@ ul {
   color: #1B58F5;
   margin-bottom: 8px;
 }
+#row-resume_content .row-100-primary p {
+  font-size: 12pt;
+}
 #row-resume_content .row-70_30-primary div h5 {
   font-size: 16pt;
   color: #1B58F5;
@@ -356,7 +359,6 @@ ul {
   color: #25282F;
   margin: 0 0 16px 0;
   font-size: 11pt;
-  list-style-position: inside;
 }
 #row-resume_content .row-70_30-primary div ul li {
   line-height: 180%;
