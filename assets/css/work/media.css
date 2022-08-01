@@ -1,0 +1,66 @@
+@media screen  and (min-width:1824px) {
+  .container-screen_content-67{
+    width:50vw;
+  }
+}
+
+
+
+
+@media screen and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  h1{
+    font-size:36pt;
+    margin:0 0 32px 0;
+    line-height: 180%;
+  }
+
+  h2{
+    font-size:26pt;
+  }
+
+  h3{
+    font-size:22pt;
+  }
+
+  h4{
+    font-size:16pt;
+  }
+
+  .row {
+
+  }
+  .container-screen_content-67 {
+    display: flex;
+    flex-direction: column;
+    padding: 24vh 0 24vh 0;
+    width: 80%;
+    margin: auto;
+  }
+
+  .row-33_33_33-primary {
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+  }
+
+  .row-70_30-primary{
+    grid-template-columns: 1fr;
+  }
+
+
+  #row-header {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #row-header div p {
+    margin-bottom: 32px;
+  }
+
+  #gundam-logo{
+    display:none;
+  }
+
+  #row-header div p {
+    width:100%;
+    line-height:160%;
+  }
+}
