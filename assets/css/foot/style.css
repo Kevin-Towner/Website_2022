@@ -33,6 +33,12 @@ footer div ul {
   margin: 0;
   display: inline-flex;
 }
+
+footer div ul li{
+  margin: 0;
+  display: inline-flex;
+}
+
 footer div ul li a .footer-icon {
   margin-top: 2px;
   height: 24px;

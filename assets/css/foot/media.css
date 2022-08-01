@@ -21,7 +21,7 @@
   }
   footer div{
     width:80%;
-
+    flex-direction: column
   }
   footer span{
     margin-top:8px;
@@ -32,6 +32,10 @@
 
   footer div ul li a .footer-icon{
     height:20px;
+  }
+
+  footer div ul li:nth-child(1){
+    margin-right:24px;
   }
 }
 
