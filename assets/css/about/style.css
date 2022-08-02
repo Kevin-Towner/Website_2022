@@ -1,0 +1,312 @@
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* - - - -CONTAINERS - - - - - */
+.container-screen_content-67 {
+  display: flex;
+  flex-direction: column;
+  padding: 24vh 0 24vh 0;
+  width: 67%;
+  margin: auto;
+  animation: fadeInAnimation ease 1.3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.container-body-100 {
+  margin: 0 auto;
+  background: #FCFCFC;
+  z-index: 0;
+  min-height: 100%;
+}
+.row {
+  margin-bottom: 4em;
+}
+.row-33_33_33-primary {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.5em;
+}
+.image-column {
+  display: flex;
+  flex-direction: column;
+}
+/* - - - - FONTS - - - - - - */
+.font-heading_text-h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 42pt;
+  color: #6C7583;
+  margin: 0 0 36px;
+}
+.font-heading_text-h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 30pt;
+  text-align: left;
+  color: #6C7583;
+  border-bottom: 1px solid #a9a9a9;
+  line-height: 0.1em;
+  margin: 0 0 2em 0;
+}
+.font-heading_text-h2 span {
+  background: #FCFCFC;
+  padding: 0 0.5em 0 0px;
+}
+.font-heading_text-h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 26pt;
+  margin: 0 0 18px 0;
+  text-align: left;
+  line-height: 140%;
+  color: #6C7583;
+}
+.font-heading_text-h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20pt;
+  letter-spacing: 0.3px;
+  margin: 0 0 12px 0;
+  text-align: left;
+  line-height: 140%;
+  color: #6C7583;
+}
+.font-heading_text-h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16.5pt;
+  letter-spacing: 0.3px;
+  margin: 0 0 12px 0;
+  text-align: left;
+  line-height: 140%;
+  color: #6C7583;
+}
+.font-body_text-p {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 14pt;
+  line-height: 150%;
+  font-weight: 300;
+  color: #25282F;
+  margin: 0 0 16px 0;
+}
+.font-hyperlink_text {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 14pt;
+  line-height: 150%;
+  color: #25282F;
+  margin: 0 0 16px 0;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 12.5pt;
+}
+.font-hyperlink_text:hover {
+  text-decoration: underline;
+  color: #2E69FF;
+}
+.font-hyperlink_in-text {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  line-height: 150%;
+  color: #25282F;
+  margin: 0 0 16px 0;
+  color: #2E69FF;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 14pt;
+}
+.font-hyperlink_in-text:hover {
+  text-decoration: underline;
+  color: #2E69FF;
+}
+.font-caption {
+  color: #25282F;
+  font-family: 'Roboto', sans-serif;
+  line-height: 140%;
+  font-weight: 300;
+}
+.font-italic {
+  font-style: italic;
+  font-size: 12.5pt;
+}
+.font-bold {
+  font-weight: 400;
+}
+.highlight {
+  font-weight: 400;
+  color: #6C7583;
+}
+html {
+  background: #FFF;
+}
+body {
+  margin: 0 auto;
+  background: #FCFCFC;
+  z-index: 0;
+  min-height: 100%;
+  font-size: 16pt;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 42pt;
+  color: #6C7583;
+  margin: 0 0 36px;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 30pt;
+  text-align: left;
+  color: #6C7583;
+  border-bottom: 1px solid #a9a9a9;
+  line-height: 0.1em;
+  margin: 0 0 2em 0;
+}
+h2 span {
+  background: #FCFCFC;
+  padding: 0 0.5em 0 0px;
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 26pt;
+  margin: 0 0 18px 0;
+  text-align: left;
+  line-height: 140%;
+  color: #6C7583;
+}
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20pt;
+  letter-spacing: 0.3px;
+  margin: 0 0 12px 0;
+  text-align: left;
+  line-height: 140%;
+  color: #6C7583;
+}
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16.5pt;
+  letter-spacing: 0.3px;
+  margin: 0 0 12px 0;
+  text-align: left;
+  line-height: 140%;
+  color: #6C7583;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 14pt;
+  line-height: 150%;
+  font-weight: 300;
+  color: #25282F;
+  margin: 0 0 16px 0;
+}
+#row-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+#row-header div p {
+  margin-bottom: 32px;
+}
+#row-header div a img {
+  width: 66%;
+  float: right;
+}
+#row-header div .button-row form button {
+  background-color: #5282FD;
+  border: 2px solid #5282FD;
+  border-radius: 2px;
+  padding: 12px 20px 10px 20px;
+  transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+}
+#row-header div .button-row form button span {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 14pt;
+  line-height: 150%;
+  font-weight: 300;
+  color: #25282F;
+  margin: 0 0 16px 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 12pt;
+  letter-spacing: 0.4px;
+  margin-left: 0;
+  color: #FCFCFC;
+}
+#row-header div .button-row form button span img {
+  width: 80%;
+  float: right;
+}
+#row-header div .button-row form button:hover {
+  color: #FFF;
+  background-color: #1B58F5;
+  border: 2px solid #1B58F5;
+  cursor: pointer;
+}
+#row-about {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 4em;
+}
+#row-about div .button-row a button {
+  background-color: #6C7583;
+  border: 2px solid #6C7583;
+  border-radius: 2px;
+  padding: 12px 20px 10px 20px;
+}
+#row-about div .button-row a button ul {
+  display: inline-flex;
+}
+#row-about div .button-row a button ul li {
+  font-weight: 400;
+  font-size: 12pt;
+  letter-spacing: 0.4px;
+  margin-left: 0;
+  color: #FCFCFC;
+}
+#row-about div .button-row a button ul li img {
+  width: 70%;
+}
+#row-about div .button-row a button:hover {
+  color: #FFF;
+  background-color: #1B58F5;
+  border: 2px solid #1B58F5;
+  cursor: pointer;
+}
+#row-about div #pixel-frog {
+  width: 48px;
+}
+#row-about .image-column {
+  display: flex;
+  flex-direction: column;
+}
+#row-about .image-column img {
+  width: 100%;
+  float: right;
+  border-radius: 2px;
+}
+#row-about .image-column .font-caption {
+  font-size: 12.5pt;
+}
+#row-about .image-column .font-caption a {
+  text-decoration: none;
+  color: #5282FD;
+  font-weight: 400;
+}
+#row-about .image-column .font-caption a:hover {
+  text-decoration: underline;
+  color: #1B58F5;
+}
