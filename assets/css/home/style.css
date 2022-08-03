@@ -214,6 +214,7 @@ p {
 #row-header {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  grid-gap: 4em;
 }
 #row-header div p {
   margin-bottom: 32px;
@@ -242,7 +243,6 @@ p {
   transition: 0.3s;
 }
 #row-header div .button-row ul li a:hover {
-  text-decoration: underline;
   color: #1B58F5;
 }
 #row-projects .row-33_33_33-primary div a {
