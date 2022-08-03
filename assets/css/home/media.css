@@ -48,6 +48,7 @@
   #row-header {
     display: flex;
     flex-direction: column-reverse;
+    grid-gap:0;
   }
   #row-header div p {
     margin-bottom: 32px;
@@ -60,6 +61,7 @@
   #row-header div p {
     width:100%;
     line-height:160%;
+    margin-bottom: 32px;
   }
 
   #row-projects{
