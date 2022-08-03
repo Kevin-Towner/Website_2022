@@ -92,19 +92,19 @@
   color: #6C7583;
 }
 .font-body_text-p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 14pt;
-  line-height: 150%;
+  font-size: 13pt;
+  line-height: 160%;
   font-weight: 300;
   color: #25282F;
   margin: 0 0 16px 0;
 }
 .font-hyperlink_text {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 14pt;
-  line-height: 150%;
+  font-size: 13pt;
+  line-height: 160%;
   color: #25282F;
   margin: 0 0 16px 0;
   text-decoration: none;
@@ -116,9 +116,10 @@
   color: #2E69FF;
 }
 .font-hyperlink_in-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin: 0;
-  line-height: 150%;
+  font-size: 13pt;
+  line-height: 160%;
   color: #25282F;
   margin: 0 0 16px 0;
   color: #2E69FF;
@@ -132,7 +133,8 @@
 }
 .font-caption {
   color: #25282F;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-size: 11pt;
   line-height: 140%;
   font-weight: 300;
 }
@@ -208,10 +210,10 @@ h5 {
   color: #6C7583;
 }
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 14pt;
-  line-height: 150%;
+  font-size: 13pt;
+  line-height: 160%;
   font-weight: 300;
   color: #25282F;
   margin: 0 0 16px 0;
@@ -228,10 +230,10 @@ p {
   float: right;
 }
 #row-header div .button-row ul {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 14pt;
-  line-height: 150%;
+  font-size: 13pt;
+  line-height: 160%;
   font-weight: 300;
   color: #25282F;
   margin: 0 0 16px 0;
