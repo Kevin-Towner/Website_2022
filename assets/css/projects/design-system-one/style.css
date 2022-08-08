@@ -1,26 +1,61 @@
-/* @<name>*/
-/* - - - - COLORS & EFFECTS - - - - -  */
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* - - - -CONTAINERS - - - - - */
+.container-screen_content-67 {
+  display: flex;
+  flex-direction: column;
+  padding: 24vh 0 24vh 0;
+  width: 67%;
+  margin: auto;
+  animation: fadeInAnimation ease 1.3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.container-body-100 {
+  margin: 0 auto;
+  background: #FCFCFC;
+  z-index: 0;
+  min-height: 100%;
+}
+.row {
+  margin-bottom: 4em;
+}
+.row-33_33_33-primary {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.5em;
+}
+.image-column {
+  display: flex;
+  flex-direction: column;
+}
 /* - - - - FONTS - - - - - - */
 .font-heading_text-h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 42pt;
-  color: #545A65;
-  margin: 0 0 64px;
+  color: #6C7583;
+  margin: 0 0 36px;
 }
 .font-heading_text-h2 {
-  border-bottom: 1px solid #9199A6;
-  line-height: 0.1em;
-  margin: 0 0 64px 0;
-}
-.font-heading_text-h2 span {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 30pt;
+  text-align: left;
   color: #6C7583;
-  background: #FDFDFD;
+  border-bottom: 1px solid #a9a9a9;
+  line-height: 0.1em;
+  margin: 0 0 2em 0;
+}
+.font-heading_text-h2 span {
+  background: #FCFCFC;
   padding: 0 0.5em 0 0px;
-  margin-left: 0;
 }
 .font-heading_text-h3 {
   font-family: 'Roboto', sans-serif;
@@ -52,24 +87,23 @@
   color: #6C7583;
 }
 .font-body_text-p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 14pt;
-  line-height: 150%;
+  font-size: 13pt;
+  line-height: 160%;
   font-weight: 300;
-  color: #545A65;
+  color: #25282F;
   margin: 0 0 16px 0;
 }
 .font-hyperlink_text {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 14pt;
-  line-height: 150%;
-  color: #545A65;
+  font-size: 13pt;
+  line-height: 160%;
+  color: #25282F;
   margin: 0 0 16px 0;
   text-decoration: none;
   font-weight: 300;
-  color: #2E69FF;
   font-size: 12.5pt;
 }
 .font-hyperlink_text:hover {
@@ -77,10 +111,11 @@
   color: #2E69FF;
 }
 .font-hyperlink_in-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin: 0;
-  line-height: 150%;
-  color: #545A65;
+  font-size: 13pt;
+  line-height: 160%;
+  color: #25282F;
   margin: 0 0 16px 0;
   color: #2E69FF;
   text-decoration: none;
@@ -92,8 +127,9 @@
   color: #2E69FF;
 }
 .font-caption {
-  color: #6C7583;
-  font-family: 'Roboto', sans-serif;
+  color: #25282F;
+  font-family: 'Roboto Slab', serif;
+  font-size: 11pt;
   line-height: 140%;
   font-weight: 300;
 }
@@ -118,41 +154,41 @@
 }
 .container-body-100 {
   margin: 0 auto;
-  background: #FDFDFD;
+  background: #FCFCFC;
   z-index: 0;
   min-height: 100%;
 }
 /* - - - - Misc  - - - -  -*/
 html {
-  background: #FDFDFD;
+  background: #FCFCFC;
 }
 body {
   margin: 0 auto;
-  background: #FDFDFD;
+  background: #FCFCFC;
   z-index: 0;
   min-height: 100%;
   font-size: 16pt;
 }
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 42pt;
-  color: #545A65;
-  margin: 0 0 64px;
+  color: #6C7583;
+  margin: 0 0 36px;
 }
 h2 {
-  border-bottom: 1px solid #9199A6;
-  line-height: 0.1em;
-  margin: 0 0 64px 0;
-}
-h2 span {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 30pt;
+  text-align: left;
   color: #6C7583;
-  background: #FDFDFD;
+  border-bottom: 1px solid #a9a9a9;
+  line-height: 0.1em;
+  margin: 0 0 2em 0;
+}
+h2 span {
+  background: #FCFCFC;
   padding: 0 0.5em 0 0px;
-  margin-left: 0;
 }
 h3 {
   font-family: 'Roboto', sans-serif;
@@ -174,12 +210,12 @@ h4 {
   color: #6C7583;
 }
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 14pt;
-  line-height: 150%;
+  font-size: 13pt;
+  line-height: 160%;
   font-weight: 300;
-  color: #545A65;
+  color: #25282F;
   margin: 0 0 16px 0;
 }
 ul {
@@ -187,15 +223,14 @@ ul {
   padding: 0;
 }
 a {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 14pt;
-  line-height: 150%;
-  color: #545A65;
+  font-size: 13pt;
+  line-height: 160%;
+  color: #25282F;
   margin: 0 0 16px 0;
   text-decoration: none;
   font-weight: 300;
-  color: #2E69FF;
   font-size: 12.5pt;
 }
 a:hover {
@@ -203,12 +238,16 @@ a:hover {
   color: #2E69FF;
 }
 sub {
-  color: #6C7583;
-  font-family: 'Roboto', sans-serif;
+  color: #25282F;
+  font-family: 'Roboto Slab', serif;
+  font-size: 11pt;
   line-height: 140%;
   font-weight: 300;
 }
 .main-content {
+  padding: 24vh 0 24vh 0;
+  animation: fadeInAnimation ease 1.3s;
+  animation-fill-mode: forwards;
   display: flex;
   flex-direction: column;
   padding: 28vh 0 10vh 0;
@@ -244,12 +283,12 @@ sub {
   border: 2px solid #2E69FF;
 }
 .row-50_50-prim div ul li {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 14pt;
-  line-height: 150%;
+  font-size: 13pt;
+  line-height: 160%;
   font-weight: 300;
-  color: #545A65;
+  color: #25282F;
   margin: 0 0 16px 0;
   line-height: 120%;
   margin-bottom: 8px;
@@ -266,12 +305,12 @@ sub {
   border: 2px solid #2E69FF;
 }
 .row-50_50-seco div ul {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 14pt;
-  line-height: 150%;
+  font-size: 13pt;
+  line-height: 160%;
   font-weight: 300;
-  color: #545A65;
+  color: #25282F;
   margin: 0 0 16px 0;
 }
 .row-33_67-prim {
@@ -303,12 +342,12 @@ sub {
   border: 2px solid #2E69FF;
 }
 .row-67_33-seco div ul {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 14pt;
-  line-height: 150%;
+  font-size: 13pt;
+  line-height: 160%;
   font-weight: 300;
-  color: #545A65;
+  color: #25282F;
   margin: 0 0 16px 0;
 }
 .row-33_67-seco {
@@ -324,12 +363,12 @@ sub {
   border: 2px solid #2E69FF;
 }
 .row-33_67-seco div ul {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 14pt;
-  line-height: 150%;
+  font-size: 13pt;
+  line-height: 160%;
   font-weight: 300;
-  color: #545A65;
+  color: #25282F;
   margin: 0 0 16px 0;
 }
 .row-33_33_33-prim {
@@ -338,12 +377,12 @@ sub {
   grid-gap: 1em;
 }
 .row-33_33_33-prim div ul {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 14pt;
-  line-height: 150%;
+  font-size: 13pt;
+  line-height: 160%;
   font-weight: 300;
-  color: #545A65;
+  color: #25282F;
   margin: 0 0 16px 0;
   margin: auto;
   line-height: 200%;
@@ -367,12 +406,12 @@ sub {
   grid-gap: 3em;
 }
 .row-25_25_25_25-prim div ul {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 14pt;
-  line-height: 150%;
+  font-size: 13pt;
+  line-height: 160%;
   font-weight: 300;
-  color: #545A65;
+  color: #25282F;
   margin: 0 0 16px 0;
   margin: auto;
   line-height: 200%;
@@ -440,15 +479,14 @@ sub {
   width: 100%;
 }
 #row-header div a {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 14pt;
-  line-height: 150%;
-  color: #545A65;
+  font-size: 13pt;
+  line-height: 160%;
+  color: #25282F;
   margin: 0 0 16px 0;
   text-decoration: none;
   font-weight: 300;
-  color: #2E69FF;
   font-size: 12.5pt;
 }
 #row-header div a:hover {
@@ -472,23 +510,23 @@ sub {
   opacity: 1;
 }
 #row-header-signature span {
-  font-family: 'Roboto', sans-serif;
-  font-size: 14pt;
-  line-height: 150%;
+  font-family: 'Roboto Slab', serif;
+  font-size: 13pt;
+  line-height: 160%;
   font-weight: 300;
-  color: #545A65;
+  color: #25282F;
   margin: 0 0 16px 0;
   font-weight: 400;
   color: #6C7583;
   margin: 0;
 }
 #row-header-signature span a {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 14pt;
-  line-height: 150%;
+  font-size: 13pt;
+  line-height: 160%;
   font-weight: 300;
-  color: #545A65;
+  color: #25282F;
   margin: 0 0 16px 0;
   font-weight: 400;
   color: #2E69FF;
@@ -515,12 +553,12 @@ sub {
   margin-bottom: 2em;
 }
 #row-introduction div .row-50_50-prim div ul {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 14pt;
-  line-height: 150%;
+  font-size: 13pt;
+  line-height: 160%;
   font-weight: 300;
-  color: #545A65;
+  color: #25282F;
   margin: 0 0 16px 0;
   margin: auto;
 }

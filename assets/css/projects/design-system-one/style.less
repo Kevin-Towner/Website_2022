@@ -1,37 +1,99 @@
-/* @<name>*/
-
-/* - - - - COLORS & EFFECTS - - - - -  */
 @color-primary:#FFF;
-@color-secondary:#FDFDFD;
-@color-text_1:#545A65;
+@color-secondary:#FCFCFC;
+@color-text_1:#25282F;
 @color-text_2:#6C7583;
-@color-CTA:#526DFD;
-@color-CTA-Alt:#0066FF;
+@color-light_grey:#a9a9a9;
+@color-CTA:#5282FD;
+@color-CTA-hover:#1B58F5;
 @color-hyperlink:#2E69FF;
 @box-shadow-primary: rgba(60, 64, 67, 0.4) 0px 1.5px 3px 0px, rgba(60, 64, 67, 0.2) 0px -.5px 3px 1px;
 @box-shadow-hover: rgba(50, 50, 93, 0.2) 0px 6px 12px -2px, rgba(0, 0, 0, 0.2) 0px -1px 6px -2px;
 @box-shadow-misc: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+
+
+
+
+/* - - - -CONTAINERS - - - - - */
+.container-screen_content-67{
+  display:flex;
+  flex-direction:column;
+  padding:24vh 0 24vh 0;
+  width:67%;
+  margin:auto;
+  animation: fadeInAnimation ease 1.3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.container-body-100{
+  margin:0 auto;
+  background:@color-secondary;
+  z-index:0;
+  min-height:100%;
+}
+
+.row{
+  margin-bottom:4em;
+}
+
+.row-33_33_33-primary{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-gap:.5em;
+}
+
+.image-column{
+  display: flex;
+  flex-direction: column;
+}
+
 /* - - - - FONTS - - - - - - */
 
 .font-heading_text-h1{
   font-family: 'Roboto', sans-serif;
-  font-weight:300;
+  font-weight:400;
   font-size:42pt;
-  color:@color-text_1;
-  margin:0 0 64px;
+  color:@color-text_2;
+  margin:0 0 36px;
 }
+// .font-heading_text-h2{
+//   border-bottom:1px solid #9199A6;
+//   line-height: .1em;
+//   margin:0 0 64px 0;
+//   span{
+//     font-family: 'Roboto', sans-serif;
+//     font-weight:400;
+//     font-size:30pt;
+//     color:@color-text_2;
+//     background:@color-secondary;
+//     padding:0 .5em 0 0px;
+//     margin-left:0;
+//   }
+// }
+
 .font-heading_text-h2{
-  border-bottom:1px solid #9199A6;
+  font-family: 'Roboto', sans-serif;
+  font-weight:400;
+  font-size:30pt;
+  text-align: left;
+  color:@color-text_2;
+  border-bottom:1px solid @color-light_grey;
   line-height: 0.1em;
-  margin:0 0 64px 0;
+  margin:0 0 2em 0;
   span{
-    font-family: 'Roboto', sans-serif;
-    font-weight:400;
-    font-size:30pt;
-    color:@color-text_2;
     background:@color-secondary;
     padding:0 .5em 0 0px;
-    margin-left:0;
   }
 }
 .font-heading_text-h3{
@@ -67,10 +129,11 @@
 }
 
 .font-body_text-p{
-  font-family: 'Roboto', sans-serif;
+  // font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin:0;
-  font-size:14pt;
-  line-height:150%;
+  font-size:13pt;
+  line-height:160%;
   font-weight:300;
   color:@color-text_1;
   margin: 0 0 16px 0;
@@ -80,7 +143,6 @@
   .font-body_text-p;
   text-decoration:none;
   font-weight:300;
-  color:@color-hyperlink;
   &:hover{
     text-decoration:underline;
     color:@color-hyperlink;
@@ -100,11 +162,14 @@
   font-size:14pt;
 }
 .font-caption{
-  color:@color-text_2;
-  font-family: 'Roboto', sans-serif;
+  color:@color-text_1;
+  font-family: 'Roboto Slab', serif;
+  font-size:11pt;
   line-height:140%;
   font-weight:300;
 }
+
+
 .font-italic{
   font-style:italic;
   font-size: 12.5pt;
