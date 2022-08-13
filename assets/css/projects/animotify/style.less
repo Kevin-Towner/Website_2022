@@ -143,9 +143,10 @@
   .font-body_text-p;
   text-decoration:none;
   font-weight:300;
+  color:@color-hyperlink;
   &:hover{
     text-decoration:underline;
-    color:@color-hyperlink;
+    color:@color-CTA-hover;
   }
   font-size:12.5pt;
 }
@@ -501,36 +502,16 @@ sub{
   }
 }
 
-#row-competitors{
-  .row-33_33_33-prim{
-    grid-gap:2em;
-    // div{
-    //   border-left:1px solid lightgrey;
-    //   padding-left:16px;
-    //   p{
-    //     margin-bottom:0;
-    //     text-align:left;
-    //   }
-    // }
-  }
-}
-
-
-#row-refinement{
-  h2{
-    color:@color-text_2;
-    border-bottom:1px solid lightgrey;
-  }
+#row-evaluation{
   .row-50_50-prim{
-    img{
-      max-width:100%;
-      border:2px solid #E5E5E5;
-      &:hover{
-        border:2px solid @color-hyperlink;
+    div{
+      ul{
+        li{
+          a{
+            .font-hyperlink_text;
+          }
+        }
       }
-    }
-    p{
-      text-align: left;
     }
   }
 }

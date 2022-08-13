@@ -104,11 +104,12 @@
   margin: 0 0 16px 0;
   text-decoration: none;
   font-weight: 300;
+  color: #2E69FF;
   font-size: 12.5pt;
 }
 .font-hyperlink_text:hover {
   text-decoration: underline;
-  color: #2E69FF;
+  color: #1B58F5;
 }
 .font-hyperlink_in-text {
   font-family: 'Roboto Slab', serif;
@@ -236,11 +237,12 @@ a {
   margin: 0 0 16px 0;
   text-decoration: none;
   font-weight: 300;
+  color: #2E69FF;
   font-size: 12.5pt;
 }
 a:hover {
   text-decoration: underline;
-  color: #2E69FF;
+  color: #1B58F5;
 }
 sub {
   color: #25282F;
@@ -440,11 +442,12 @@ sub {
   margin: 0 0 16px 0;
   text-decoration: none;
   font-weight: 300;
+  color: #2E69FF;
   font-size: 12.5pt;
 }
 #row-header div a:hover {
   text-decoration: underline;
-  color: #2E69FF;
+  color: #1B58F5;
 }
 #row-header-signature {
   display: flex;
@@ -504,22 +507,21 @@ sub {
   grid-template-columns: 1fr;
   grid-gap: 3em;
 }
-#row-competitors .row-33_33_33-prim {
-  grid-gap: 2em;
+#row-evaluation .row-50_50-prim div ul li a {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  font-size: 13pt;
+  line-height: 160%;
+  color: #25282F;
+  margin: 0 0 16px 0;
+  text-decoration: none;
+  font-weight: 300;
+  color: #2E69FF;
+  font-size: 12.5pt;
 }
-#row-refinement h2 {
-  color: #6C7583;
-  border-bottom: 1px solid lightgrey;
-}
-#row-refinement .row-50_50-prim img {
-  max-width: 100%;
-  border: 2px solid #E5E5E5;
-}
-#row-refinement .row-50_50-prim img:hover {
-  border: 2px solid #2E69FF;
-}
-#row-refinement .row-50_50-prim p {
-  text-align: left;
+#row-evaluation .row-50_50-prim div ul li a:hover {
+  text-decoration: underline;
+  color: #1B58F5;
 }
 #row-feedback div a img {
   max-width: 100%;
