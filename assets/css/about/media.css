@@ -47,6 +47,7 @@
   #row-header {
     display: flex;
     flex-direction: column-reverse;
+    grid-gap:0;
   }
   #row-header div p {
     margin-bottom: 32px;
