@@ -234,19 +234,33 @@ p{
       }
     }
     .button-row{
-      ul{
-        .font-body_text-p;
-        list-style-position:inside;
-        li{
-          line-height: 180%;
-          a{
-            text-decoration: none;
-            color:@color-CTA;
+      form{
+        button{
+          background-color:@color-CTA;
+          border:2px solid @color-CTA;
+          border-radius:2px;
+          padding:12px 20px 10px 20px;
+          transition:.3s;
+          display:inline-flex;
+          align-items:center;
+          span{
+            .font-body_text-p;
+            margin-bottom:0;
             font-weight:400;
-            transition:.3s;
-            &:hover{
-              color:@color-CTA-hover;
+            font-size:12pt;
+            letter-spacing:.4px;
+            margin-left:0;
+            color:@color-secondary;
+            img{
+              width:80%;
+              float:right;
             }
+          }
+          &:hover{
+            color:#FFF;
+            background-color:@color-CTA-hover;
+            border: 2px solid @color-CTA-hover;
+            cursor: pointer
           }
         }
       }
