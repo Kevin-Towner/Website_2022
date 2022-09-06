@@ -367,10 +367,11 @@ ul {
 }
 #row-resume_content .row-70_30-primary div ul li a {
   text-decoration: none;
-  color: #1B58F5;
+  color: #25282F;
+  transition: 0.3s;
 }
 #row-resume_content .row-70_30-primary div ul li a:hover {
-  text-decoration: underline;
+  color: #1B58F5;
 }
 #row-resume_content .row-70_30-primary div p {
   font-size: 11pt;
