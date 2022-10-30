@@ -320,13 +320,14 @@ ul {
 }
 #row-resume_content {
   background-color: #FFF;
-  padding: 3em 2em 3em 2em;
+  padding: 1.5em 16px 1.5em 16px;
   border-radius: 2px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 #row-resume_content h4 {
   font-size: 26pt;
   margin-bottom: 0;
+  color: #1B58F5;
 }
 #row-resume_content h5 {
   font-size: 16pt;
