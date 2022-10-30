@@ -44,6 +44,8 @@
 
   .row-70_30-primary{
     grid-template-columns: 1fr;
+    grid-gap:1em;
+    margin-bottom:1em;
   }
 
 
@@ -62,6 +64,10 @@
   #row-header div p {
     width:100%;
     line-height:160%;
+  }
+
+  #row-resume_content{
+    padding:1.5em 16px 1.5em 16px;
   }
 
   #row-resume_content .row-70_30-primary div ul li{
