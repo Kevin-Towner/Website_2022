@@ -44,7 +44,7 @@
   <title>Resume</title>
 
 </head>
-<body vocab="https://www.schema.org/">
+<body>
   <nav>
     <div class="navigation-section" id="navigation-left">
       <a style="margin-bottom:0;" href= "../index.html"><img id="logo" src="../assets/images/branding/gundam-logo.svg" alt="mini gundam logo"></a>
@@ -71,7 +71,7 @@
           <form rel="link to resume" target="_blank" action="../assets/images/misc/resume-mast.pdf">
             <button id="button-1" class="button-CTA">
               <span>Resume PDF</span>
-              <span><img src="../assets/images/branding/pdf.png" alt="PDF download"></span>
+              <span typeof="mediaObject"><img property="contentUrl" src="../assets/images/branding/pdf.png" alt="PDF download"></span>
             </button>
           </form>
         </div>
@@ -85,50 +85,50 @@
     </div>
     <h2><span>Resume</span></h2>
     <div class="row" id="row-resume_content">
-      <div typeof="person" class="row-70_30-primary">
+      <div itemscope itemtype="https://www.schema.org/Person" class="row-70_30-primary">
         <div>
-          <h4 property="givenName">Kevin Towner</h4>
-          <h5 property="hasOccupation" id="header-h5">Human-Computer Interaction</h5>
+          <h4 itemprop="givenName">Kevin Towner</h4>
+          <h5 itemprop="hasOccupation" id="header-h5">Human-Computer Interaction</h5>
         </div>
         <div>
-          <ul property="contactPoints">
-            <li property="telephone"><a href="tel:19085776666">(908) 577-6666</a></li>
-            <li property="email"><a href="emailto:kevintowner@gmail.com">townerk91@gmail.com</a></li>
+          <ul itemprop="contactPoints">
+            <li itemprop="telephone"><a href="tel:19085776666">(908) 577-6666</a></li>
+            <li itemprop="email"><a href="emailto:kevintowner@gmail.com">townerk91@gmail.com</a></li>
           </ul>
         </div>
       </div>
-      <div typeof="communicateaction"  class="row-100-primary">
+      <div itemscope itemtype="https://www.schema.org/CommunicateAction"  class="row-100-primary">
         <h5>Summary</h5>
-        <p property="about">Product designer and digital optimization professional with over 10 years of experience in business operations and website design. Currently an MSI student at Drexel University, studying Human-Computer Interaction and web designer at AIG Travel Guard.</p>
+        <p itemprop="about">Product designer and digital optimization professional with over 10 years of experience in business operations and website design. Currently an MSI student at Drexel University, studying Human-Computer Interaction and web designer at AIG Travel Guard.</p>
       </div>
-      <div class="row-70_30-primary">
+      <div typeof="thing" class="row-70_30-primary">
         <div id="column-jobs">
           <h5>Experience</h5>
-          <div>
-            <span class="job-title">Web Designer, Optimization</span><span class="divider"> | </span><span class="company-name">AIG, Travel Guard</span><span class="job-dates">, 2022 - present</span>
+          <div itemscope itemtype="https://www.schema.org/Organization">
+            <span itemprop="description"class="job-title">Web Designer, Optimization</span><span class="divider"> | </span><span itemprop="name" class="company-name">AIG, Travel Guard</span><span class="job-dates">, 2022 - present</span>
             <ul>
               <li>Design and execute optimization initiatives for AIG partners such as United Airlines, Lufthansa, and Qantas</li>
               <li>Collaborate with TCS team on web authoring and segmentation within Adobe Experience Manager and Adobe Target</li>
               <li>Develop and maintain flexible component style guide for multiple partner panels by documenting CSS styles</li>
             </ul>
           </div>
-          <div>
-            <span class="job-title">Account Analyst</span><span class="divider"> | </span><span class="company-name">AIG, Op Services</span><span class="job-dates">, 2019 - 2022</span>
+          <div itemscope itemtype="https://www.schema.org/Organization">
+            <span itemprop="description" class="job-title">Account Analyst</span><span class="divider"> | </span><span itemprop="name" class="company-name">AIG, Op Services</span><span class="job-dates">, 2019 - 2022</span>
             <ul>
               <li>Document Op Services processes, and assist PCG with information gathering and workflow design</li>
               <li>Process roughly 2,500 transactions per month for multiple lines of business</li>
               <li>Collaborate with various operational and underwriting teams to provide exceptional customer service</li>
             </ul>
           </div>
-          <div>
-            <span class="job-title">Business Services Associate</span><span class="divider"> | </span><span class="company-name">AIG, Surplus Lines</span><span class="job-dates">, 2017 - 2019</span>
+          <div itemscope itemtype="https://www.schema.org/Organization"></div>>
+            <span itemprop="description" class="job-title">Business Services Associate</span><span class="divider"> | </span><span itemprop="name" class="company-name">AIG, Surplus Lines</span><span class="job-dates">, 2017 - 2019</span>
             <ul>
               <li>Ran e-screens on potential insureds and verified the legitimacy of incoming applications for Surplus Lines</li>
               <li> Processed quote requests and researched broker codes for appropriate underwriting assignments</li>
             </ul>
           </div>
-          <div>
-            <span class="job-title">Visual Manager</span><span class="divider"> | </span><span class="company-name">Hollister Co.</span><span class="job-dates">, 2014 - 2017</span>
+          <div itemscope itemtype="https://www.schema.org/Organization">
+            <span itemprop="description" class="job-title">Visual Manager</span><span class="divider"> | </span><span itemprop="name" class="company-name">Hollister Co.</span><span class="job-dates">, 2014 - 2017</span>
             <ul>
               <li>Managen all seasona; floorsets, visual merchandising efforts, ann in-store marketing placements</li>
               <li>Tracken KPIs, budget hours, and scheduling - made sales, merchandising, layout, and stockroom decisions</li>
@@ -136,8 +136,8 @@
           </div>
           <br>
           <h5>Volunteering</h5>
-          <div>
-            <span class="job-title">Usability Analyst</span><span class="divider"> | </span><span class="company-name">Catchafire, Historic Wyoming</span><span class="job-dates">, 01.03.22 -   01.17.22</span>
+          <div itemscope itemtype="https://www.schema.org/Organization>
+            <span itemprop="description" class="job-title">Usability Analyst</span><span class="divider"> | </span><span itemprop="name" class="company-name">Catchafire, Historic Wyoming</span><span class="job-dates">, 01.03.22 -   01.17.22</span>
             <ul>
               <li>Volunteer opportunity where I helped the organization by conducting usability audits and heuristic evaluations on their website. According to <a target="_blank" href="https://www.catchafire.org/blog/evolving-how-we-calculate-catchafires-project-values-8eaa200b906/">Catchafire's project values, </a>the <a target="_blank" href="https://www.catchafire.org/impact/match/2913393/alliance-for-historic-wyoming--website-usability-audit/">value estimate </a>for this project was $5,665.</li>
             </ul>
