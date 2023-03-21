@@ -386,7 +386,7 @@ ul {
   color: #25282F;
   margin: 0 0 16px 0;
   font-size: 11pt;
-  list-style-position: inside;
+  list-style-position: outside;
   list-style-type: disc;
   margin-top: 8px;
 }
